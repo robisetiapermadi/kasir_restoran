@@ -9,7 +9,6 @@ Public Class Form1
 
     Private Function tambahKeKeranjang(menu As String, jumlah As Integer, harga As Integer) As Boolean
         Dim objItem As ListViewItem
-        Dim oForm As New Form2
 
         objItem = orderList.Items.Add(menu)
         With objItem
