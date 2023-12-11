@@ -22,11 +22,11 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ListViewItem6 As ListViewItem = New ListViewItem(New String() {"Ayam Goreng", "10000"}, -1)
-        Dim ListViewItem7 As ListViewItem = New ListViewItem(New String() {"Ayam Geprek", "15000"}, -1)
-        Dim ListViewItem8 As ListViewItem = New ListViewItem(New String() {"Pecel Lele", "8000"}, -1)
-        Dim ListViewItem9 As ListViewItem = New ListViewItem(New String() {"Nasi", "4000"}, -1)
-        Dim ListViewItem10 As ListViewItem = New ListViewItem(New String() {"Teh Manis", "3000"}, -1)
+        Dim ListViewItem1 As ListViewItem = New ListViewItem(New String() {"Ayam Goreng", "10000"}, -1)
+        Dim ListViewItem2 As ListViewItem = New ListViewItem(New String() {"Ayam Geprek", "15000"}, -1)
+        Dim ListViewItem3 As ListViewItem = New ListViewItem(New String() {"Pecel Lele", "8000"}, -1)
+        Dim ListViewItem4 As ListViewItem = New ListViewItem(New String() {"Nasi", "4000"}, -1)
+        Dim ListViewItem5 As ListViewItem = New ListViewItem(New String() {"Teh Manis", "3000"}, -1)
         addButton = New Button()
         jumlah_input = New NumericUpDown()
         orderList = New ListView()
@@ -103,7 +103,7 @@ Partial Class Form1
         ' menuList
         ' 
         menuList.Columns.AddRange(New ColumnHeader() {ColumnHeader1, ColumnHeader2})
-        menuList.Items.AddRange(New ListViewItem() {ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10})
+        menuList.Items.AddRange(New ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5})
         menuList.Location = New Point(12, 210)
         menuList.Name = "menuList"
         menuList.Size = New Size(351, 113)
@@ -231,7 +231,7 @@ Partial Class Form1
         Controls.Add(jumlah_input)
         Controls.Add(addButton)
         Name = "Form1"
-        Text = " "
+        Text = " Program Kasir Restoran"
         CType(jumlah_input, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
