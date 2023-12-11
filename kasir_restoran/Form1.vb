@@ -59,7 +59,12 @@ Public Class Form1
     End Sub
 
     Private Sub hapusButton_Click(sender As Object, e As EventArgs) Handles hapusButton.Click
-        orderList.Items(menuList.FocusedItem.Index).Remove()
+        Try
+            orderList.Items(menuList.FocusedItem.Index).Remove()
+        Catch ex As Exception
+
+        End Try
+
     End Sub
 
     Private Sub resetButton_Click(sender As Object, e As EventArgs) Handles resetButton.Click
