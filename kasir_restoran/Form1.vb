@@ -68,9 +68,6 @@ Public Class Form1
         grandTotal = 0
     End Sub
 
-    Public Function resetOrderList() As Boolean
-        orderList.Items().Clear()
-    End Function
 
     Private Sub bayarButton_Click(sender As Object, e As EventArgs) Handles bayarButton.Click
         Dim nominalBayar As Integer

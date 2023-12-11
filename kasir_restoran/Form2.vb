@@ -3,7 +3,7 @@
         Dim oForm As New Form1
 
         invoice.Items().Clear()
-        oForm.resetOrderList()
+        oForm.orderList.Clear()
 
         Me.Hide()
 
