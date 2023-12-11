@@ -13,8 +13,6 @@ Public Class Form1
 
         Dim oForm As New Form2
 
-        objItemInvoice = oForm.invoice.Items.Add("test")
-
         objItem = orderList.Items.Add(menu)
         With objItem
             .SubItems.Add(harga)
